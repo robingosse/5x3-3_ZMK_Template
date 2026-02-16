@@ -32,9 +32,6 @@
         diode-direction = "col2row";
         
         // Row pins (3 rows)
-        // P1.15 = pro_micro 18
-        // P1.13 = pro_micro 15  
-        // P1.11 = pro_micro 14
         row-gpios
             = <&pro_micro 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             , <&pro_micro 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
